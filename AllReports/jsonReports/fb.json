@@ -1,0 +1,556 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-11T01:54:38.016Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1970200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.befsc1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 247700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Befsc2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 608300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.befsc3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4230501700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "To validate forget password",
+        "description": "",
+        "id": "to-validate-forget-password-fuctionality-of-the-facebbok-application;to-validate-forget-password",
+        "after": [
+          {
+            "result": {
+              "duration": 792412100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aft(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 189600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Aftsc3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 160800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftsc2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 127500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftsc1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4033786200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User have to enters login page through chromebrowser",
+            "match": {
+              "location": "StepDefinition.user_have_to_enters_login_page_through_chromebrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4545511500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User have to click the forget password",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_the_forget_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227234700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User have to enter email or mobile number",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_email_or_mobile_number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 166398900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User have to click the search button",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_the_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Forgetpass"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "To validate forget password fuctionality of the facebbok application",
+    "description": "",
+    "id": "to-validate-forget-password-fuctionality-of-the-facebbok-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featureFile/forgetpass.feature",
+    "tags": [
+      {
+        "name": "@Forgetpass",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2765921300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is in Facebook login page",
+            "match": {
+              "location": "StepDefinition.user_is_in_Facebook_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-11T01:54:52.093Z",
+        "before": [
+          {
+            "result": {
+              "duration": 156500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.befsc1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 96400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Befsc2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 90100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.befsc3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1887748000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "To validate Login page using invalid username and valid password",
+        "description": "",
+        "id": "to-validate-login-functionality-of-the-facebook-application;to-validate-login-page-using-invalid-username-and-valid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1348054900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aft(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 157100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Aftsc3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 129200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftsc2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 109800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftsc1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 239258300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User have to enter invalid username and valid password",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_invalid_username_and_valid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "Selenium123@gamil.com"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "Aarif"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "Aarif7500"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3121553300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click the login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16228148800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should be in invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_should_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3652011800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is in Facebook login page",
+            "match": {
+              "location": "StepDefinition.user_is_in_Facebook_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-11T01:55:17.708Z",
+        "before": [
+          {
+            "result": {
+              "duration": 271400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.befsc1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 221500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Befsc2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 198000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.befsc3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1869209000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "To validate Login page using invalid username and invalid password",
+        "description": "",
+        "id": "to-validate-login-functionality-of-the-facebook-application;to-validate-login-page-using-invalid-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 819342200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aft(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 153600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Aftsc3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 130800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftsc2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 109600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftsc1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 452101400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User have to enter invalid username and invalid password",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_invalid_username_and_invalid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "email",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "Aarif",
+                  "hard.aarif14@gmail.com",
+                  "Lovely"
+                ]
+              },
+              {
+                "cells": [
+                  "Noori",
+                  "nooori@gmail.com",
+                  "Noori"
+                ]
+              },
+              {
+                "cells": [
+                  "Afrred",
+                  "Afreed@gamil.com",
+                  "Afreed"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3079941200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click the login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22222272800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should be in invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_should_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "To validate Login functionality of the Facebook Application",
+    "description": "",
+    "id": "to-validate-login-functionality-of-the-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featureFile/login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
